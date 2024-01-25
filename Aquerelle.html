@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #c4c4c4;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #1ec8ff;
+  color: black;
+}
+
+.header a.active {
+  background-color: #1ec8ff;
+  color: #1ec8ff;
+}
+
+.header-right {
+  float: left;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <a href="#default" class="logo"><h1>Ocean Edge Fashion</h1></a>
+  <div class="header-left"> <img src="https://i.postimg.cc/RF3nvJxR/LOGO.png" alt="Ocean Edge" width="150" height="100">
+
+
+  </div>
+</div>
+
+<head>
+    <meta charset="utf-8" />
+    <title>OCEAN EDGE FASHION</title>
+</head>
+<body>
+<br>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  border:1px solid black;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  border:1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  border:1px solid black;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  border:1px solid black;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+  border:1px solid black;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<meta name="viewport" content="width=device-width, initial-scale=0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<body>
+  
+  <p><button class="w3-btn w3-orange w3-large"><a href="index.html" title="home">HOME</a><i class="#"></i></button></p>
+</body>
+<br>
+
+<h2><center><b><u>AQUERELLE</center></u></b></h2>
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:20%;">Company Name</th>
+    <th style="width:20%;">Buyer Name</th>
+<th style="width:20%;">Article No</th>
+    <th style="width:20%;">PO NO</th>
+<th style="width:20%;">ARTWORK STATUS</th>
+    <th style="width:20%;">PRODUCTION STATUS</th>
+  </tr>
+    <tr>
+  <tr>
+    <td>AQUERELLE</td>
+    <td>TOMMY HILFIGER</td>
+    <td>POLYBAG STICKER</td>
+    <td>123</td>
+    <td>APPROVED</td>
+    <td>IN PROCESS</td>
+  </tr>
+</table>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+</body>
+</html>
+
+</body>
+</html>
